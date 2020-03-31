@@ -1,0 +1,6 @@
+framework module Pods_JJJSepcDemo_Tests {
+  umbrella header "Pods-JJJSepcDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

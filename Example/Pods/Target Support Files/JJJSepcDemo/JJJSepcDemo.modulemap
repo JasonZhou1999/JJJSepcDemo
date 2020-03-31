@@ -1,0 +1,6 @@
+framework module JJJSepcDemo {
+  umbrella header "JJJSepcDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

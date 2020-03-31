@@ -1,0 +1,16 @@
+PODS:
+  - JJJSepcDemo (0.1.0)
+
+DEPENDENCIES:
+  - JJJSepcDemo (from `../`)
+
+EXTERNAL SOURCES:
+  JJJSepcDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JJJSepcDemo: 109ea9407d5aeda6b65a144ebb76d67309faea8a
+
+PODFILE CHECKSUM: c0b63c7598d4dacc71dacb159849220a9a620b5f
+
+COCOAPODS: 1.7.5
