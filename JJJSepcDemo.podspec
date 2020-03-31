@@ -21,16 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhouzefeng/JJJSepcDemo'
+  s.homepage         = 'https://github.com/JasonZhou1999/JJJSepcDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhouzefeng' => 'zhouzefeng@bertadata.com' }
-  s.source           = { :git => 'https://github.com/zhouzefeng/JJJSepcDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JasonZhou1999/JJJSepcDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JJJSepcDemo/Classes/**/*'
+ # s.source_files = 'JJJSepcDemo/Classes/**/*'
+  
+  s.subspec 'TopView' do |ss|
+      ss.source_files = "JJJSepcDemo/Classes/TopView/*.{h,m}"
+  end
   
   # s.resource_bundles = {
   #   'JJJSepcDemo' => ['JJJSepcDemo/Assets/*.png']

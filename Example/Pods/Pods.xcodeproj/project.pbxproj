@@ -11,8 +11,8 @@
 		408FA199AAD4351B73524A4AAA1AFCBC /* Pods-JJJSepcDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66281C1D50476D51FE4329EF39B9FC11 /* Pods-JJJSepcDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40F131FCF25E39A7E5D8257CAFFDBFB0 /* Pods-JJJSepcDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FB6A5390381E017BA87B8D3C36B3E6 /* Pods-JJJSepcDemo_Example-dummy.m */; };
 		817FCD73E0581FF1E70A094CF8D891DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		96BCDAAF2432F262002A5DD2 /* TopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BCDAAD2432F262002A5DD2 /* TopView.h */; };
-		96BCDAB02432F262002A5DD2 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BCDAAE2432F262002A5DD2 /* TopView.m */; };
+		96BCDAB8243315CC002A5DD2 /* TopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BCDAB6243315CC002A5DD2 /* TopView.h */; };
+		96BCDAB9243315CC002A5DD2 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BCDAB7243315CC002A5DD2 /* TopView.m */; };
 		9CB26A1828E7A7B97194FECCC5619212 /* Pods-JJJSepcDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD3AD204AECBBDE2F09709CC445E69F /* Pods-JJJSepcDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A40AF99763FB8E62A199F489498ECAC0 /* JJJSepcDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD423809DE89B4C05BCB2D570095862 /* JJJSepcDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA6DCA97930067859FF89F727223C732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -56,9 +56,8 @@
 		69326287F7B3640D55882778C9BA87C8 /* JJJSepcDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JJJSepcDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E05BBB942E7755579A7C3534B9F39CE /* Pods-JJJSepcDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJJSepcDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		85AB01931180C99F0AD154531BC4B6F6 /* JJJSepcDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJJSepcDemo.modulemap; sourceTree = "<group>"; };
-		96BCDAAD2432F262002A5DD2 /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
-		96BCDAAE2432F262002A5DD2 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
-		96BCDAB12432F3DB002A5DD2 /* SepcHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SepcHeader.h; sourceTree = "<group>"; };
+		96BCDAB6243315CC002A5DD2 /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		96BCDAB7243315CC002A5DD2 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE6DB0B3404CC9CF3ACF70178BCFE0C8 /* Pods-JJJSepcDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJJSepcDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AFADC8638A30B8607C13015680A3DC23 /* Pods-JJJSepcDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJJSepcDemo_Example-Info.plist"; sourceTree = "<group>"; };
@@ -105,11 +104,8 @@
 		15E05F19FE3B5111D4DACAC8DAD8AF70 /* JJJSepcDemo */ = {
 			isa = PBXGroup;
 			children = (
-				96BCDAAD2432F262002A5DD2 /* TopView.h */,
-				96BCDAAE2432F262002A5DD2 /* TopView.m */,
 				A9D13399170A29993F651ACA87E7BC03 /* Pod */,
 				9A5A0EE043E5A520AD8C80B2A0055A12 /* Support Files */,
-				96BCDAB12432F3DB002A5DD2 /* SepcHeader.h */,
 			);
 			name = JJJSepcDemo;
 			path = ../..;
@@ -159,6 +155,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		96BCDAB5243315BE002A5DD2 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				96BCDAB6243315CC002A5DD2 /* TopView.h */,
+				96BCDAB7243315CC002A5DD2 /* TopView.m */,
+			);
+			name = TopView;
+			path = JJJSepcDemo/Classes/TopView;
+			sourceTree = "<group>";
+		};
 		9A5A0EE043E5A520AD8C80B2A0055A12 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +182,7 @@
 		A9D13399170A29993F651ACA87E7BC03 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				96BCDAB5243315BE002A5DD2 /* TopView */,
 				69326287F7B3640D55882778C9BA87C8 /* JJJSepcDemo.podspec */,
 				BD4FC32127E123505943219D3004E9B3 /* LICENSE */,
 				04B4A5AF43856A9ECCE11A5CA3076EF0 /* README.md */,
@@ -242,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40AF99763FB8E62A199F489498ECAC0 /* JJJSepcDemo-umbrella.h in Headers */,
-				96BCDAAF2432F262002A5DD2 /* TopView.h in Headers */,
+				96BCDAB8243315CC002A5DD2 /* TopView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BCDAB02432F262002A5DD2 /* TopView.m in Sources */,
+				96BCDAB9243315CC002A5DD2 /* TopView.m in Sources */,
 				E3D6F363253302A8204AF817B774D137 /* JJJSepcDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
